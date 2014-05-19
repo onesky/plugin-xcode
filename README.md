@@ -1,4 +1,40 @@
-plugin-xcode
-============
+OneSky Plugin for Xcode
+=======================
 
-Xcode plugin
+This library lets you sync localizable string resources and translations with OneSky server without logging on to OneSky web admin.
+
+
+Installation
+------------
+
+1. Download `OneSkyPlugin.zip` in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. Relaunch Xcode.
+2. To uninstall, just remove the plugin from there (and restart Xcode) and the project property cache file in `~/Library/Application Support/OneSky/OneSkyProperties.plist`.
+
+Project Settings
+----------------
+
+1. Go to **Menu > Editor > OneSky > Project Properties...**
+2. Key in your `API Key`, `API Secret` and `Project ID`, these parameters can be found on your OneSky web admin dashboard.
+3. Select the `Base Language` of your project.
+
+![project_properties.png](https://raw.github.com/onesky/plugin-xcode/master/Images/project_properties.png)
+
+Send Strings
+------------
+
+1. Go to **Menu > Editor > OneSky > Send Strings...**
+2. Select the files to send to OneSky and press `Send`.
+
+![send_strings.png](https://raw.github.com/onesky/plugin-xcode/master/Images/send_strings.png)
+
+Sync Translations
+-----------------
+
+1. Go to **Menu > Editor > OneSky > Sync Translations...**
+2. Select the translations to download from OneSky and press `Sync`.
+
+![sync_translations.png](https://raw.github.com/onesky/plugin-xcode/master/Images/sync_translations.png)
+
+Support
+-------
+http://support.oneskyapp.com/
