@@ -38,3 +38,10 @@ Sync Translations
 Support
 -------
 http://support.oneskyapp.com/
+
+Helpful articles
+-------
+[ How to find API key ](http://support.oneskyapp.com/solution/categories/74754/folders/150388/articles/89104-how-to-find-your-api)
+[ Supported languages in iOS ](http://support.oneskyapp.com/solution/categories/74754/folders/122474/articles/70697-supported-ios)
+
+[More from here](http://support.oneskyapp.com/solution/categories)
