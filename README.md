@@ -14,8 +14,9 @@ Project Settings
 ----------------
 
 1. Go to **Menu > Editor > OneSky > Project Properties...**
-2. Key in your `API Key`, `API Secret` and `Project ID`, these parameters can be found on your OneSky web admin dashboard.
-3. Select the `Base Language` of your project.
+2. Key in your `API Key`, `API Secret`, these parameters can be found on your OneSky web admin dashboard.
+3. Select the target `Project` from the project list.
+4. Select the `Base Language` of your project.
 
 ![project_properties.png](https://raw.github.com/onesky/plugin-xcode/master/Images/project_properties.png)
 
