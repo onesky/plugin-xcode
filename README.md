@@ -7,7 +7,7 @@ This library lets you sync localizable string resources and translations with On
 Installation
 ------------
 
-1. Download [`OneSkyPlugin.zip`](https://github.com/onesky/plugin-xcode/releases/download/1.0.5/OneSkyPlugin.zip) in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. If this is the first Plug-ins that you use in Xcode, the Plug-ins directory does not exist. In this case, creating the directory manually would do. Then, Relaunch Xcode. 
+1. Download [`OneSkyPlugin.zip`](https://github.com/onesky/plugin-xcode/releases/download/1.1.0/OneSkyPlugin.zip) in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. If this is the first Plug-ins that you use in Xcode, the Plug-ins directory does not exist. In this case, creating the directory manually would do. Then, Relaunch Xcode. 
 2. To uninstall, just remove the plugin from there (and restart Xcode) and the project property cache file in `~/Library/Application Support/OneSky/OneSkyProperties.plist`.
 
 Project Settings
@@ -19,6 +19,16 @@ Project Settings
 4. Select the `Base Language` of your project.
 
 ![project_properties.png](https://raw.github.com/onesky/plugin-xcode/master/Images/project_properties.png)
+
+Generate/Update Strings
+------------
+This tool generates .strings files in base language for both Interface Builder and Source (.m, .c) files, new strings will be merged into existing files. New files will be added to the project and target automatically.
+
+1. Go to **Menu > Editor > OneSky > Generate/Update Strings Files...**
+2. Select the files for strings generation and press `Generate`.
+
+![generate_strings.png](https://raw.github.com/onesky/plugin-xcode/master/Images/generate_strings.png)
+
 
 Send Strings
 ------------
