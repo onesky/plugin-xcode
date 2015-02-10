@@ -573,7 +573,7 @@ class LocalizedString(object):
 ENCODINGS = ['utf16', 'utf8']
 
 
-def merge_strings(old_strings, new_strings, keep_comment=False):
+def merge_strings(old_strings, new_strings, keep_comment=False, replace_value=False):
     '''Merges two dictionarys, one with the old strings and one with the new
     strings.
     Old strings keep their value but their comment will be updated. Only if
@@ -590,12 +590,16 @@ def merge_strings(old_strings, new_strings, keep_comment=False):
 
         new_strings
             Dictionary with the new Strings
-
+            
         keep_comment
             If True, the old comment will be kept. This is necessary for
             translating Storyboard files because they have generated comments
-            which are not very helpfull
-
+            which are not very helpful
+            
+        replace_value
+            If True, the old value will be replaced. This is necessary for
+            translating IB files because they are never `raw` strings
+            
     Returns
 
         Merged Dictionary
@@ -650,7 +654,7 @@ def merge_strings(old_strings, new_strings, keep_comment=False):
     for key, old_string in old_strings.iteritems():
         if key in new_strings:
             new_string = new_strings[key]
-            if old_string.is_raw():
+            if old_string.is_raw() or replace_value:
                 # if the old string is raw just take the new string
                 if keep_comment:
                     new_string.comment = old_string.comment
@@ -730,7 +734,7 @@ def sort_strings(strings):
     return values
 
 
-def merge_files(new_file_path, old_file_path, keep_comment=False):
+def merge_files(new_file_path, old_file_path, keep_comment=False, replace_value=False):
     '''Scans the Strings in both files, merges them together and writes the
     result to the old file
 
@@ -745,7 +749,7 @@ def merge_files(new_file_path, old_file_path, keep_comment=False):
     new_strings = parse_file(new_file_path)
     logging.debug('Current File: {}'.format(old_file_path))
     old_strings = parse_file(old_file_path)
-    final_strings = merge_strings(old_strings, new_strings, keep_comment)
+    final_strings = merge_strings(old_strings, new_strings, keep_comment, replace_value)
     write_file(old_file_path, final_strings)
 
 
@@ -779,6 +783,24 @@ def main():
         default=False,
         help='Show debug messages'
     )
+    
+    parser.add_option(
+        '-r',
+        '--replace_value',
+        action='store_true',
+        dest='replace_value',
+        default=False,
+        help='Force replace string values with ones in new file'
+    )
+    
+    parser.add_option(
+        '-k',
+        '--keep_comment',
+        action='store_true',
+        dest='keep_comment',
+        default=True,
+        help='Keep comment from the old string'
+    )
 
     (options, args) = parser.parse_args()
 
@@ -788,7 +810,7 @@ def main():
         level=options.verbose and logging.DEBUG or logging.INFO
     )
 
-    merge_files(options.new_path, options.old_path, True)
+    merge_files(options.new_path, options.old_path, options.keep_comment, options.replace_value)
     return 0
 
 if __name__ == '__main__':
