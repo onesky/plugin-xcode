@@ -30,15 +30,15 @@ This tool generates .strings files in base language for both Interface Builder a
 ![generate_strings.png](/Images/generate_strings.png)
 
 
-Send Strings
+Upload Strings
 ------------
 
 1. Go to **Menu > Editor > OneSky > Upload Strings...**
-2. Select the files to send to OneSky and press `Upload`.
+2. Select the files to upload to OneSky and press `Upload`.
 
 ![upload_strings.png](/Images/upload_strings.png)
 
-Sync Translations
+Download Translations
 -----------------
 
 1. Go to **Menu > Editor > OneSky > Download Translations...**
