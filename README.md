@@ -7,7 +7,7 @@ This library lets you sync localizable string resources and translations with On
 Installation
 ------------
 
-1. Download [`OneSkyPlugin.zip`](https://github.com/onesky/plugin-xcode/releases/download/1.5.4/OneSkyPlugin.zip) in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. If this is the first Plug-ins that you use in Xcode, the Plug-ins directory does not exist. In this case, creating the directory manually would do. Then, Relaunch Xcode.
+1. Download [`OneSkyPlugin.zip`](https://github.com/onesky/plugin-xcode/releases/download/1.5.7/OneSkyPlugin.zip) in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. If this is the first Plug-ins that you use in Xcode, the Plug-ins directory does not exist. In this case, creating the directory manually would do. Then, Relaunch Xcode.
 2. To uninstall, just remove the plugin from there (and restart Xcode) and the project property cache file in `~/Library/Application Support/OneSky/OneSkyProperties.plist`.
 
 Project Settings
@@ -18,7 +18,7 @@ Project Settings
 3. Select the target `Project` from the project list.
 4. Select the `Base Language` of your project.
 
-![project_properties.png](https://raw.github.com/onesky/plugin-xcode/master/Images/project_properties.png)
+![project_properties.png](/Images/project_properties.png)
 
 Generate/Update Strings
 ------------
@@ -27,24 +27,24 @@ This tool generates .strings files in base language for both Interface Builder a
 1. Go to **Menu > Editor > OneSky > Generate/Update Strings Files...**
 2. Select the files for strings generation and press `Generate`.
 
-![generate_strings.png](https://raw.github.com/onesky/plugin-xcode/master/Images/generate_strings.png)
+![generate_strings.png](/Images/generate_strings.png)
 
 
 Send Strings
 ------------
 
-1. Go to **Menu > Editor > OneSky > Send Strings...**
-2. Select the files to send to OneSky and press `Send`.
+1. Go to **Menu > Editor > OneSky > Upload Strings...**
+2. Select the files to send to OneSky and press `Upload`.
 
-![send_strings.png](https://raw.github.com/onesky/plugin-xcode/master/Images/send_strings.png)
+![upload_strings.png](/Images/upload_strings.png)
 
 Sync Translations
 -----------------
 
-1. Go to **Menu > Editor > OneSky > Sync Translations...**
-2. Select the translations to download from OneSky and press `Sync`.
+1. Go to **Menu > Editor > OneSky > Download Translations...**
+2. Select the translations to download from OneSky and press `Download`.
 
-![sync_translations.png](https://raw.github.com/onesky/plugin-xcode/master/Images/sync_translations.png)
+![download_translations.png](/Images/download_translations.png)
 
 Support
 -------
