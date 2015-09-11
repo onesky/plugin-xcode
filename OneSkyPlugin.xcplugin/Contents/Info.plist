@@ -17,25 +17,29 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.5.7</string>
+	<string>1.5.8</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>52</string>
+	<string>54</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>6E35b</string>
+	<string>7A218</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>14D125</string>
+	<string>15A278</string>
 	<key>DTSDKName</key>
-	<string>macosx10.10</string>
+	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0640</string>
+	<string>0700</string>
 	<key>DTXcodeBuild</key>
-	<string>6E35b</string>
+	<string>7A218</string>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
 		<string>FEC992CC-CA4A-4CFD-8881-77300FCB848A</string>
@@ -53,6 +57,7 @@
 		<string>8DC44374-2B35-4C57-A6FE-2AD66A36AAD9</string>
 		<string>7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90</string>
 		<string>AABB7188-E14E-4433-AD3B-5CD791EAD9A3</string>
+		<string>0420B86A-AA43-4792-9ED0-6FE0F2B16A13</string>
 	</array>
 	<key>NSPrincipalClass</key>
 	<string>OneSkyPlugin</string>
