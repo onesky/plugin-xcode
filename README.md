@@ -52,8 +52,8 @@ http://support.oneskyapp.com/
 
 Helpful articles
 -------
-[ How to find API key ](http://support.oneskyapp.com/solution/categories/74754/folders/150388/articles/89104-how-to-find-your-api)
+[ How to find API key ](http://support.oneskyapp.com/hc/en-us/articles/206887797-How-to-find-your-API-keys-)
 
-[ Supported languages in iOS ](http://support.oneskyapp.com/solution/categories/74754/folders/122474/articles/70697-supported-ios)
+[ Supported languages in iOS ](http://support.oneskyapp.com/hc/en-us/articles/206217438-Languages-supported-by-iOS-)
 
-[More from here](http://support.oneskyapp.com/solution/categories)
+[More from here](http://support.oneskyapp.com/hc/en-us/sections/201079608-API-and-plugins)
