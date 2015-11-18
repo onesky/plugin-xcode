@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.5.9</string>
+	<string>1.6.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,11 +25,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>55</string>
+	<string>56</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7B91b</string>
+	<string>7B1005</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -37,9 +37,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0710</string>
+	<string>0711</string>
 	<key>DTXcodeBuild</key>
-	<string>7B91b</string>
+	<string>7B1005</string>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
 		<string>FEC992CC-CA4A-4CFD-8881-77300FCB848A</string>
