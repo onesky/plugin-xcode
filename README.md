@@ -1,7 +1,7 @@
-OneSky Plugin for Xcode
+OneSky Xcode Plugin
 =======================
 
-This library lets you sync localizable string resources and translations with OneSky server without logging on to OneSky web admin.
+This plugin lets you sync localizable string resources and translations with OneSky server without logging on to OneSky web admin.
 
 
 Installation
