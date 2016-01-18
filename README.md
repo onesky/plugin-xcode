@@ -7,7 +7,7 @@ This plugin lets you sync localizable string resources and translations with One
 Installation
 ------------
 
-1. Download [`OneSkyPlugin.zip`](https://github.com/onesky/plugin-xcode/releases/download/1.6.4/OneSkyPlugin.zip) in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. If this is the first Plug-ins that you use in Xcode, the Plug-ins directory does not exist. In this case, creating the directory manually would do. Then, Relaunch Xcode.
+1. Download [`OneSkyPlugin.zip`](https://github.com/onesky/plugin-xcode/releases/download/1.8.0/OneSkyPlugin.zip) in the release tab and unzip the folder into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`. If this is the first Plug-ins that you use in Xcode, the Plug-ins directory does not exist. In this case, creating the directory manually would do. Then, Relaunch Xcode.
 2. To uninstall, just remove the plugin from there (and restart Xcode) and the project property cache file in `~/Library/Application Support/OneSky/OneSkyProperties.plist`.
 
 Project Settings
