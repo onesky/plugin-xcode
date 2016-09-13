@@ -3,6 +3,8 @@ OneSky Xcode Plugin
 
 This plugin lets you sync localizable string resources and translations with OneSky server without logging on to OneSky web admin.
 
+*Note this plugin is not supported in Xcode 8. See [ here ] (https://support.oneskyapp.com/hc/en-us/articles/227128928-Is-the-Xcode-plugin-compatible-with-Xcode-8-) for more information
+
 
 Installation
 ------------
@@ -52,6 +54,8 @@ http://support.oneskyapp.com/
 
 Helpful articles
 -------
+[ How to support OneSky Xcode plugin in Xcode 8 ] (https://support.oneskyapp.com/hc/en-us/articles/227128928-Is-the-Xcode-plugin-compatible-with-Xcode-8-)
+
 [ How to find API key ](http://support.oneskyapp.com/hc/en-us/articles/206887797-How-to-find-your-API-keys-)
 
 [ Supported languages in iOS ](http://support.oneskyapp.com/hc/en-us/articles/206217438-Languages-supported-by-iOS-)
